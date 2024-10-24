@@ -1,0 +1,6 @@
+
+if [[ "$PWD" == "$HOME" ]]; then
+    pfetch
+fi
+
+PS1="\n\[\e[1;35m\]\w\[\e[0m\] > "
